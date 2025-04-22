@@ -1,0 +1,17 @@
+#include "Vector2D.h"
+
+Fvector2D::Fvector2D()
+{
+	X = 0;
+	Y = 0;
+}
+
+Fvector2D::Fvector2D(int x, int y)
+{
+	X = x;
+	Y = y;
+}
+
+Fvector2D::~Fvector2D()
+{
+}
