@@ -14,13 +14,13 @@ UInput::~UInput()
 
 void UInput::Tick()
 {
-	if (_kbhit())
+	/*if (_kbhit())
 	{
 		KeyCode = (char)_getch();
 	}
 	else
 	{
 		KeyCode = '\0';
-	}
+	}*/
 
 }

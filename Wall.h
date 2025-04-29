@@ -5,6 +5,7 @@ class AWall :
 {
 public :
     AWall();
+    AWall(const Fvector2D& InVector);
     virtual ~AWall();
 };
 

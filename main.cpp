@@ -1,15 +1,24 @@
 #include <iostream>
+#include <windows.h>
 #include "Engine.h"
+#include "SDL3/SDL.h"
+
+#pragma comment(lib, "SDL3")
+
 int main()
 {
-    UEngine* Engine = new UEngine();
+	/* UEngine* Engine = UEngine::Instance();*/
+	//int (*FP)(int, int);
+	//int a = 5;
+	//int c = 5;
+	//FP = [](int A, int B)
+	//	{
+	//		return A * B;
+	//	};
 
-    Engine->Initialize();
+	GEninge->Initialize();
+	GEninge->Run();
+	GEninge->Terminate();
 
-    Engine->Run();
-
-    Engine->Terminate();
-
-    delete Engine;
-    Engine = nullptr;
+	return 0;
 }
